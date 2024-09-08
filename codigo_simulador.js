@@ -5,8 +5,8 @@ const coeficiente_tarjeta_visa = [0,15.77,21.61,27.63,33.84];
 const coeficiente_tarjeta_mastercard = [0,17.37,23.84,30.53,37.44];
 
 let mensaje_calculo = "TOTALES SEGUN CUOTAS DE TARJETA: ";
-let mensaje_tarjeta = "Coeficientes Tarjeta: ";
-let tipo_tarjeta = "Tipos de Tarjetas: ";
+let mensaje_tarjeta = "TIPOS DE TARJETAS: ";
+let tipo_tarjeta;
 let bandera_ciclo = true;
 let importe;
 
@@ -20,8 +20,7 @@ function calcular_cuota(valor,coeficiente){
 
 function limpiar_datos(){
     importe = 0;
-    tipo_tarjeta = "Tipos de Tarjetas: ";
-    mensaje_tarjeta = "Coeficientes Tarjeta: ";
+    mensaje_tarjeta = "TIPOS DE TARJETA: ";
     mensaje_calculo = "TOTALES SEGUN CUOTAS DE TARJETA: ";
 }
 
