@@ -7,9 +7,52 @@
 </head>
 <body>
     <h1>Simulador de Tarjetas de Credito</h1>
+    <form>
+        <h2>Seleccione la Tarjeta de Crédito</h2>
+        <select name="tarjetas" id="dropdownOpcionesTarjetas">
+            <option value="Seleccionar...">Seleccionar...</option>
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+        </select>
+        <p>La Tarjeta Seleccionada es: <span id="tarjetaseleccionada"></span> </p>
+        
+        <p>Listado de Cuotas y Coeficientes</p>
+            <p> <span id = "cuota1"></span></p>
+            <p> <span id = "cuota2"></span></p>
+            <p> <span id = "cuota3"></span></p>
+            <p> <span id = "cuota4"></span></p>
+            <p> <span id = "cuota5"></span></p>
+        
+        <h2>Seleccione la Cuota</h2>
+        <select name="cuotas" id="dropdownOpcionesCuotas">
+            <option value="Seleccionar...">Seleccionar...</option>
+            <option value="1">1 Cuota</option>
+            <option value="2">2 Cuotas</option>
+            <option value="3">3 Cuotas</option>
+            <option value="4">4 Cuotas</option>
+            <option value="5">5 Cuotas</option>
+        </select>
+        <p>La Cuota seleccionada es: <span id="cuotaseleccionada"></span> </p>
+        <p>El Coeficiente de interes es: <span id="interescuota"></span> </p>
+
+        <h2>Monto a ingresar</h2>
+
+        <input type="number" id="montoacalcular">
+
+
+    </form>
+    <p></p>
+    <button id="btncalcular">Calcular Cuota</button>
+    <p>TOTAL MONTO CON INTERES $ <span id="montototal"></span> </p>
+    <p>TOTAL CUOTA $ <span id="montocuota"></span> </p>
+    <p>IMPORTE INTERES $ <span id="montointeres"></span> </p>
+    <button id="btnguardar">Guardar Calculo</button>
+    <button id="limpiartodo">Limpiar datos</button>
+                
     <footer>
         
-        <script src="./codigo_simulador.js"></script>
+        <!--  <script src="./codigo_simulador_1_entrega.js"></script> -->
+        <script src="./codigo_simulador_2_entrega.js"></script>
     </footer>
 </body>
 </html>

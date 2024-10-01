@@ -22,6 +22,8 @@ function limpiar_datos(){
     mensaje_calculo = "TOTALES SEGUN CUOTAS DE TARJETA: "
 };
 
+// DEFINICIONES OBJETOS
+
 // COMIENZO DEL PROGRAMA
 
 alert("Bienvenidos al Simulador de Coeficientes de Tarjetas de credito");
